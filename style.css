@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #a0e6f9c5;
+    background-image: url(fondo-cuadricula-digital-futurista-azul-oscuro-degradado.jpg);
+    background-size: 100% auto;
     color: #333;
     margin: 0;
     padding: 0;
@@ -43,18 +44,19 @@ body {
     border: #333 solid;
   }
   h1, h2 {
-    color: #4e35dc ;
+    color: white ;
     margin-top: 0;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif
   }
   
   h2 {
-    border-bottom: 1px solid #4e35dc;
+    border-bottom: 1px solid white;
     padding-bottom: 5px;
   }
   
-  p, ul, li {
+  p, ul, li, label {
+    color: #fff;
     margin: 1px;
     padding: 1px;
     text-align: center;
